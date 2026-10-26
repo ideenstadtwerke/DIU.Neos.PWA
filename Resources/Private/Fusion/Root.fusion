@@ -19,7 +19,7 @@ prototype(Neos.Neos:Page) {
 
     body.javascripts {
         initSW = DIU.Neos.PWA:RegisterSW
-        initSW.@position = 'after main'
+        initSW.@position = 'end'
     }
 }
 
